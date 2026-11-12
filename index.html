@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laman Pribadi - Muhammad Badiilah Naail</title>
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-white font-sans leading-relaxed text-ink">
+
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laman Pribadi - Muhammad Badiilah Naail</title>
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-white font-sans leading-relaxed text-ink">
+
+  <!-- HEADER: logo kiri, menu kanan -->
+  <header class="sticky top-0 z-10 flex flex-col gap-4 bg-brand px-6 py-4 shadow-md md:flex-row md:items-center md:justify-between md:px-16">
+    <a href="#beranda" class="text-2xl font-extrabold text-accent">Muhammad Badiilah Naail</a>
+    <nav>
+      <ul class="flex gap-6 font-medium text-white">
+        <li><a href="#beranda" class="hover:text-accent">Beranda</a></li>
+        <li><a href="#projek" class="hover:text-accent">Projek</a></li>
+        <li><a href="#kontak" class="hover:text-accent">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SECTION 1: perkenalan diri -->
+    <section id="beranda" class="flex min-h-[60vh] flex-col items-start justify-center bg-gradient-to-br from-brand to-brand-light px-6 py-20 text-white md:px-16">
+      <p class="mb-4 rounded-full bg-accent px-4 py-1 text-sm font-semibold text-brand">Mahasiswa Semester 2</p>
+      <h1 class="mb-4 text-4xl font-extrabold md:text-5xl">Halo, saya <span class="text-accent">Muhammad Badiilah Naail</span></h1>
+      <p class="mb-6 max-w-xl">Saya adalah seorang mahasiswa semester 2 yang sedang belajar pemrograman web.</p>
+    </section>
+
+    <!-- SECTION 2: projek, kartu pakai Grid -->
+    <section id="projek" class="bg-stone-50 px-6 py-20 md:px-16">
+      <h2 class="mb-2 text-3xl font-bold text-brand">Projek Saya</h2>
+      <p class="mb-10 max-w-2xl">Projek yang sudah saya kerjakan selama belajar pemrograman web.</p>
+
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <article class="rounded-2xl border-t-4 border-brand bg-white p-6 shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+          <span class="mb-3 inline-block rounded-md bg-accent px-3 py-1 text-xs font-semibold text-brand">HTML &amp; CSS</span>
+          <h3 class="mb-2 text-xl font-bold text-brand">Layout Website Sederhana</h3>
+          <p class="text-sm">Halaman statis dengan header, dua section, dan footer tiga bagian, dibuat dengan Flexbox.</p>
+        </article>
+
+        <article class="rounded-2xl border-t-4 border-brand bg-white p-6 shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+          <span class="mb-3 inline-block rounded-md bg-accent px-3 py-1 text-xs font-semibold text-brand">HTML &amp; Tailwind</span>
+          <h3 class="mb-2 text-xl font-bold text-brand">Latihan Tailwind CSS</h3>
+          <p class="text-sm">Layout yang sama dibuat ulang dengan class Tailwind, memakai Grid responsif untuk kartu.</p>
+        </article>
+
+        <article class="rounded-2xl border-t-4 border-brand bg-white p-6 shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+          <span class="mb-3 inline-block rounded-md bg-accent px-3 py-1 text-xs font-semibold text-brand">Git &amp; GitHub</span>
+          <h3 class="mb-2 text-xl font-bold text-brand">Belajar Git dan GitHub</h3>
+          <p class="text-sm">Mengunggah projek ke GitHub dengan git add, commit, dan push.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER: tiga bagian sejajar -->
+  <footer id="kontak" class="flex flex-col gap-8 bg-ink px-6 py-12 text-white md:flex-row md:gap-6 md:px-16">
+    <div class="flex-1">
+      <a href="#beranda" class="text-2xl font-extrabold text-accent">Muhammad Badiilah Naail</a>
+      <p class="mt-2 text-sm">&copy; 2026 Muhammad Badiilah Naail</p>
+    </div>
+
+    <div class="flex-1 md:text-center">
+      <h3 class="mb-2 font-bold text-accent">Tentang Website</h3>
+      <p class="text-sm">Website pribadi untuk mendokumentasikan proses belajar pemrograman web.</p>
+    </div>
+
+    <div class="flex-1 md:text-right">
+      <h3 class="mb-2 font-bold text-accent">Kontak</h3>
+      <p class="text-sm">Email: muhammad.badiilah.naail@gmail.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>
